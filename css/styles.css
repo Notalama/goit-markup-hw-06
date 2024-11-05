@@ -1,0 +1,108 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --white-color: #ffffff;
+  --secondary-white-color: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  background-color: var(--white-background-color);
+  color: var(--primary-text-color);
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+}
+
+.logo .accent {
+  color: var(--accent-color);
+}
+
+.nav-list {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+address {
+  font-style: normal;
+}
+
+.top-section {
+  background-color: var(--primary-text-color);
+}
+
+.top-section .section-title {
+  color: var(--white-color);
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.primary-btn {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.services-section {
+  background-color: var(--white-color);
+}
+
+.services-section .services-title {
+  display: hidden;
+}
+
+.section-title {
+  font-size: 20px;
+}
+
+.list-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.list-text {
+  font-size: 16px;
+}
+
+.team-section {
+  background-color: var(--secondary-white-color);
+}
+
+.team-section .team-card {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.footer {
+  background-color: var(--primary-text-color);
+  color: var(--white-color);
+}
+
+.footer .logo {
+  color: var(--secondary-white-color);
+}
