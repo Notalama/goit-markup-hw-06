@@ -1,17 +1,17 @@
 :root {
-  --primary-text-color: #2e2f42;
-  --accent-color: #4d5ae5;
+  --dark: #2e2f42;
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
   --white-color: #ffffff;
-  --secondary-white-color: #f4f4fd;
+  --light: #f4f4fd;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
   background-color: var(--white-background-color);
-  color: var(--primary-text-color);
-  line-height: 24px;
-  font-weight: 400;
+  color: var(--dark);
+  line-height: 1.5;
   font-size: 16px;
 }
 
@@ -21,20 +21,24 @@ body {
 
 .link {
   text-decoration: none;
-  color: var(--primary-text-color);
+  color: var(--dark);
+}
+
+.link:hover {
+  color: var(--pressed-state);
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
-  color: var(--primary-text-color);
+  line-height: 1.1667;
+  color: var(--dark);
   text-transform: uppercase;
 }
 
 .logo .accent {
-  color: var(--accent-color);
+  color: var(--primary-brand);
 }
 
 .nav-list {
@@ -47,13 +51,13 @@ address {
 }
 
 .top-section {
-  background-color: var(--primary-text-color);
+  background-color: var(--dark);
 }
 
 .top-section .section-title {
   color: var(--white-color);
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.0715;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -62,9 +66,13 @@ address {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
-  background-color: var(--accent-color);
+  background-color: var(--primary-brand);
   color: var(--white-color);
   cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: var(--pressed-state);
 }
 
 .services-section {
@@ -76,7 +84,8 @@ address {
 }
 
 .section-title {
-  font-size: 20px;
+  font-size: 36px;
+  line-height: 1.112;
 }
 
 .list-title {
@@ -89,7 +98,7 @@ address {
 }
 
 .team-section {
-  background-color: var(--secondary-white-color);
+  background-color: var(--light);
 }
 
 .team-section .team-card {
@@ -99,10 +108,10 @@ address {
 }
 
 .footer {
-  background-color: var(--primary-text-color);
+  background-color: var(--dark);
   color: var(--white-color);
 }
 
 .footer .logo {
-  color: var(--secondary-white-color);
+  color: var(--light);
 }
