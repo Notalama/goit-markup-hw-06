@@ -104,6 +104,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  color: var(--dark);
 }
 
 .description {
@@ -111,6 +112,7 @@ body {
 }
 
 .list-title {
+  color: var(--dark);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -129,11 +131,8 @@ body {
   line-height: 1.2;
 }
 
-.team-section .team-card {
-  /* just to pass tests */
-  /* box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-  box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
-  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08); */
+.team-section {
+  background-color: var(--light);
 }
 
 .team-section .section-title {
