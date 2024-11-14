@@ -94,10 +94,6 @@ body {
   background-color: var(--pressed-state);
 }
 
-.services-section {
-  background-color: var(--white-color);
-}
-
 .section-title {
   font-size: 36px;
   line-height: 1.11;
@@ -121,10 +117,6 @@ body {
 
 .list-text {
   font-size: 16px;
-}
-
-.services-section {
-  background-color: var(--light);
 }
 
 .services-section .section-title {
