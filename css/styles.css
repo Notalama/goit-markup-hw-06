@@ -79,9 +79,11 @@ header nav {
   align-items: center;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 .top-section .container {
-  padding-top: 188px;
-  padding-bottom: 188px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -191,12 +193,11 @@ header .contacts-list {
 .services-section .list {
   display: flex;
   gap: 24px;
-  margin: 120px auto;
+  margin: 0 auto;
 }
 
 .team-section {
   background-color: var(--light);
-  padding: 120px 0;
 }
 
 .team-section .section-title {
@@ -245,10 +246,6 @@ header .contacts-list {
 
 .hidden {
   display: none;
-}
-
-.portfolio {
-  padding: 120px 0;
 }
 
 .portfolio .list {
