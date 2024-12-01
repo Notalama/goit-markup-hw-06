@@ -48,6 +48,7 @@ body {
 .link {
   text-decoration: none;
   color: var(--dark);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover {
@@ -141,6 +142,7 @@ body {
 }
 .contacts .list .link {
   color: var(--text-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts .list .link:hover,
@@ -161,6 +163,17 @@ body {
   max-width: 496px;
 }
 
+.adv-link-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  border-radius: 4px;
+  background-color: var(--light);
+  margin-bottom: 8px;
+  border: 1px solid rgba(142, 143, 153, 1)
+}
+
 .primary-btn {
   font-weight: 500;
   font-size: 16px;
@@ -175,6 +188,7 @@ body {
   font-weight: 400;
   border-radius: 4px;
   min-width: 169px;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .primary-btn:hover {
